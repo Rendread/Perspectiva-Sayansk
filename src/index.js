@@ -6,6 +6,7 @@ import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
 import Lisa from './icons/lisa.jpg';
+import AppPage from './components/app/Intro';
 
 const FirebaseConfig = {
   apiKey: 'AIzaSyDXZWCEvhAla1toTGbtIucebgbcsJqvr98',
@@ -21,6 +22,7 @@ firebase.initializeApp(FirebaseConfig);
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <AppPage />
   </React.StrictMode>,
   document.getElementById('root'),
 );

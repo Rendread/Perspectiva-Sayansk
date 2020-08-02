@@ -1,11 +1,7 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
   background: #fff;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Raleway;
 }
 
 a {
@@ -32,9 +28,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Raleway;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -112,63 +108,22 @@ h6 {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
-# Top Bar
+# HEADER
 --------------------------------------------------------------*/
-
-.ButtonLKDiv {
-  position: fixed;
-  transition: all 0.5s;
-
-  left: 80%;
-}
-
-#topbar {
-  padding: 0 0 10px 0;
-  font-size: 14px;
-  transition: all 0.5s;
-}
-
-#topbar .social-links {
-  text-align: right;
-}
-
-#topbar .social-links a {
-  color: #535074;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
-}
-
-#topbar .social-links a:hover {
-  color: #1bb1dc;
-}
-
-#topbar .social-links a:first-child {
-  border-left: 0;
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
-.LeftNeed {
-  padding-left: 55%;
-}
-
 #header {
   width: 100%;
-  height: 110px;
+  height: 20px;
   transition: all 0.5s;
-  padding: 15px 0;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   z-index: 997;
-  background-color: aqua;
-  opacity: 0.8;
+  /*background-color: rgb(53, 224, 247);*/
+  /*background-image: -webkit-gradient(linear, right top, left top, from(#00abd1), to(#10cbd4));*/
+  background: rgba(117, 156, 216, 0.9);
+  opacity: 0.9;
 }
 
 #header.header-scrolled,
@@ -182,10 +137,6 @@ h6 {
 #header.header-scrolled #topbar,
 #header.header-pages #topbar {
   display: none;
-}
-
-#header .logo {
-  margin: 5px 0px 0px 20px;
 }
 
 #header .logo h1 {
@@ -210,59 +161,111 @@ h6 {
   max-height: 26px;
 }
 
-.main-pages {
-  margin-top: 60px;
-}
-
 /*--------------------------------------------------------------
-# Intro Section
+# Top Bar
 --------------------------------------------------------------*/
-
-#intro {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background: #f5f8fd url('../icons/intro-bg.jpg') center top no-repeat;
-  background-size: cover;
+#topbar {
+  padding: 0px 60px 10px 0px;
+  font-size: 14px;
+  transition: all 0.5s;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 1;
+  grid-column-end: 6;
 }
 
-#intro .intro-info h2 {
-  color: #413e66;
-  margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 700;
+#topbar .social-links {
+  text-align: right;
+  margin-top: 5px;
+  margin-right: -50px;
 }
 
-#intro .intro-info h2 span {
+#topbar .social-links a {
+  color: #535074;
+  padding: 4px 15px;
+  display: inline-block;
+  line-height: 1px;
+}
+
+#topbar .social-links a:hover {
   color: #1bb1dc;
 }
 
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+#Grid {
+  display: grid;
+  grid-template-columns: repeat(6, 4fr);
+  grid-template-rows: repeat(6, 2fr);
+  width: 100%;
+  height: 20px;
+}
+
+/* #Grid > div {
+  border: solid;
+}*/
+
+#ButtonLKDiv {
+  grid-row-start: 2;
+  grid-column-start: 6;
+  grid-row-end: 2;
+  grid-column-end: 6;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -0px;
+}
+.ButtonLK {
+  color: #094d74;
+}
+
+.logoMain {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+.logoMainComp {
   display: inline-block;
-  padding: 10px 32px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #1bb1dc;
-  color: #fff;
+}
+.logoMain > div {
+  margin: -15px 40px 0px 0px;
+  display: inline-block;
 }
 
-#intro .intro-info .btn-get-started:hover,
-#intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+.logotextCenter {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
 }
-
+.logotextCenterImage {
+  float: left;
+}
+.logotextCenterText {
+  float: left;
+}
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 
 /* Desktop Navigation */
+
+#Menu {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 7;
+  padding-left: 20px;
+  margin-top: -10px;
+}
 
 .main-nav {
   /* Drop Down */
@@ -281,6 +284,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+  padding: 0px 15px;
 }
 
 .main-nav a {
@@ -290,7 +294,7 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Raleway;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -298,7 +302,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -342,7 +346,7 @@ h6 {
 }
 
 .main-nav .drop-down > a:after {
-  font-family: FontAwesome;
+  font-family: Raleway;
   padding-left: 10px;
 }
 

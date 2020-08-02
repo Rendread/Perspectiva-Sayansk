@@ -1,8 +1,7 @@
 import React from 'react';
 import '../src/style.css';
 import Header from './components/header/header';
-import AppPage from './components/app/Intro';
-import './css/header.css';
+import AppPage from './components/intro/Intro';
 
 function App() {
   return <Header />;

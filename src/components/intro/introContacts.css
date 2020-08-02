@@ -1,0 +1,31 @@
+.IncroContactsWrapper {
+  min-height: 600px;
+  width: 100%;
+  background: #cfdaec;
+  /*background: linear-gradient(180deg, #ececec 0%, #9cb9d1);*/
+  display: grid;
+  grid-template-rows: none;
+  grid-template-columns: 1fr 1fr;
+}
+.IncroContacts {
+  margin-left: 77px;
+  margin-top: 117px;
+}
+.ContactsBlock {
+  width: 600px;
+  height: 75px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.ContactsBlock > p {
+  margin-left: 25px;
+  margin-top: 8px;
+  font-size: 25px;
+  align-items: center;
+  color: #000000;
+}
+.Map {
+  border: solid;
+  height: 100%;
+  width: 100%;
+}

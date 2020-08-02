@@ -1,0 +1,112 @@
+#Grid-Intro {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 10fr;
+  grid-template-rows: none;
+  width: 100%;
+  min-height: 600px;
+  opacity: 1;
+}
+
+.MainIntro {
+  text-align: center;
+  background-color: #cfdaec;
+  background: linear-gradient(180deg, #cfdaec 0%, #9cb9d1);
+  display: inline;
+}
+
+.MainIntro > .AboutCenter {
+  margin: 40px 0px 0px 20px;
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url(../../fonts/elisabeth.ttf);
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(../../fonts/Raleway.ttf);
+}
+.AboutCenter > h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.MainIntro > .AboutCenterP > p {
+  margin: 20px 0px 0px 20px;
+  color: #000;
+}
+
+.MainIntro > .AboutCenterP > div {
+}
+.AboutCenterP {
+  display: grid;
+  margin-top: 3%;
+  grid-template-columns: 1fr 300px 1fr 300px 1fr 300px 1fr;
+  grid-template-rows: 410px;
+}
+.AboutCenterDirections {
+  display: block;
+  border: 1px solid #094d74;
+  text-align: left;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+.AboutCenterDirections > img {
+  margin-left: 35px;
+}
+
+.AboutCenterDirectionsThing {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.AboutCenterDirectionsThing > p2 {
+  text-align: left;
+  margin-top: 0px;
+  line-height: normal;
+}
+.AboutCenterDirectionsThing > p {
+  margin: 0px 0px 20px 0px;
+  line-height: normal;
+}
+
+.AboutCenterDirectionsButtonDiv {
+  margin-top: 230px;
+  position: absolute;
+  margin-left: 35px;
+}
+
+.AboutCenterDirectionsThing > p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+}
+.AboutCenterDirectionsThing > p2 {
+  line-height: normal;
+}
+
+.AboutCenterDirectionsButton {
+  background-color: #094d74;
+  height: 30px;
+  width: 120px;
+  filter: drop-shadow(5px 5px 4px rgba(117, 156, 216, 0.71));
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+}
+.AboutCenterDirectionsButton:hover {
+  background-color: #042436;
+}
+.AboutCenterDirectionsButton:active {
+  background-color: #3995ca;
+}
+.AboutCenterDirectionsButton > p {
+  color: #eef0f6;
+  text-align: center;
+  display: inline;
+}

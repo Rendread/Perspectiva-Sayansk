@@ -1,0 +1,40 @@
+.AboutCourse {
+  display: inline;
+  grid-template-rows: repeat(5, 1fr);
+  margin-top: 20px;
+  min-height: 200px;
+  transition: 0.5s;
+}
+
+.AboutCourse > div {
+  min-height: 100px;
+
+  transition: 0.5s;
+}
+
+.Courses {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.HeaderCourses {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.HiddenCourse {
+  text-align: left;
+  margin-left: 20px;
+
+  transition: ease all 0.8s;
+}
+.HiddenCourse:last-child {
+  padding-bottom: 20px;
+}
+.HiddenCourse:first-child {
+  margin: 2px;
+}
+.HiddenCourse > div {
+}

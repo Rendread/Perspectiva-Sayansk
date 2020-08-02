@@ -1,0 +1,87 @@
+.AboutCenterGrid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 10fr;
+  grid-template-rows: none;
+  width: 100%;
+  min-height: 550px;
+  opacity: 1;
+}
+.AboutCenterGrid > div {
+  /*border: solid;*/
+}
+.AboutCenterMain {
+  background-color: #9cb9d1;
+  background: linear-gradient(0deg, #9cb9d1 0%, #70a7d4);
+}
+.AboutCenterDivText {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+.AboutCenterDivText > p {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.AboutCenterMainGrid {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: 1fr 300px 1fr 300px 1fr 300px 1fr;
+  min-height: 300px;
+}
+.AboutCenterMainGrid > div {
+}
+.AboutCenterCardIcon {
+  text-align: center;
+  padding-left: 73px;
+}
+.AboutCenterIcon {
+  background-color: #eef0f6;
+  opacity: 0.5;
+  height: 154px;
+  width: 154px;
+  display: block;
+  border-radius: 50%;
+}
+.AboutCenterIconSVG {
+  height: 93px;
+  text-align: center;
+  margin-top: 23px;
+  margin-left: 10px;
+}
+.AboutCenterIconSVGCertificate {
+  margin-left: 4px;
+  margin-top: 35px;
+}
+.AboutCenterCardText {
+  text-align: center;
+}
+.AboutCenterCardText > p {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+  margin-top: 40px;
+  line-height: normal;
+}
+.AboutCenterCardText > p2 {
+  font-size: 15px;
+  color: #000000;
+  line-height: normal;
+}
+.AboutCenterCardTextTeacher {
+  text-align: center;
+}
+.AboutCenterCardTextTeacher > p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 40px;
+  line-height: normal;
+}
+.AboutCenterCardTextTeacher > p2 {
+  font-size: 15px;
+  color: #000000;
+  line-height: normal;
+}

@@ -1,0 +1,55 @@
+.ImageSlider {
+  background-color: #759cd8;
+  padding-top: 90px;
+  opacity: 1;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-column-end: 1;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  width: 100%;
+
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Carousel {
+  opacity: 0.9;
+  background-color: #759cd8;
+}
+.SliderHeadingEGEMain > h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+}
+.SliderHeadingEGEMain > h3 {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.SliderHeading {
+  position: absolute;
+  display: column;
+  z-index: 998;
+  margin: 10% 0px 0px 5%;
+  height: auto;
+  width: auto;
+  text-align: left;
+}
+
+.SliderHeading > div {
+  padding: 20px 0 0 0;
+}
+.SliderHeading > div:last-child {
+  padding: 40px 0 0 0;
+}
+.SliderHeadingEGEMain {
+  display: block;
+}
+.Carousel {
+  opacity: 1;
+}

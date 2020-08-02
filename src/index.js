@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './App';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
 import Lisa from './icons/lisa.jpg';
-import AppPage from './components/app/Intro';
+import IntroPage from './components/intro/Intro';
+import Slider from './components/Slider/slider';
+import Footer from './components/footer/footer';
 
 const FirebaseConfig = {
   apiKey: 'AIzaSyDXZWCEvhAla1toTGbtIucebgbcsJqvr98',
@@ -20,9 +22,13 @@ const FirebaseConfig = {
 };
 firebase.initializeApp(FirebaseConfig);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <AppPage />
-  </React.StrictMode>,
+  <React.Fragment>
+    <Header />
+    <Slider />
+    <IntroPage />
+    <Footer />
+  </React.Fragment>,
   document.getElementById('root'),
 );
+//<Slider />
+//<IntroPage />

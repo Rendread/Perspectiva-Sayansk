@@ -1,11 +1,12 @@
 import React from 'react';
-import '../../css/header.css';
+import '../header/header.css';
 import Instagramm from '../../icons/instagram-sketched.svg';
 import Vk from '../../icons/vk.svg';
 import odnoklassniki from '../../icons/odnoklassniki.svg';
-import Down from '../../icons/down-arrow.png';
+import CompanyLogoHeader from '../../icons/companyLogoHeader.svg';
 
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+import Button from '@material-ui/core/Button';
+import { Collapse } from '@material-ui/core';
 
 window.onscroll = function () {
   scrollFunction();
@@ -14,55 +15,77 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.documentElement.scrollTop < 200) {
     document.getElementById('topbar').style.display = 'block';
-    document.getElementById('header').style.height = '110px';
+    document.getElementById('header').style.height = '90px';
+    document.getElementById('Menu').style.margin = '-10px 0px 0px 0px';
+    document.getElementById('ButtonLKDiv').style.margin = '-10px 30px 0px 0px';
+    document.getElementsByClassName('logoMain')[0].style.margin = '-10px 0px 0px 0px';
   } else {
     document.getElementById('topbar').style.display = 'none';
     document.getElementById('header').style.height = '75px';
+    document.getElementById('Menu').style.margin = '20px 0px 0px 0px';
+    document.getElementById('ButtonLKDiv').style.margin = '15px 30px 0px 0px';
+    document.getElementsByClassName('logoMain')[0].style.margin = '25px 30px 0px 0px';
   }
 }
 
+function Alert() {
+  return '';
+}
+
 function Header() {
+  const [open, setOpen] = React.useState(true);
   return (
     <header id="header">
-      <div id="topbar">
-        <div className="container">
+      <div id="Grid">
+        <div id="topbar">
           <div className="social-links">
-            <a href="https://vk.com/id220937096" class="instagram">
+            <a href="https://ok.ru/profile/587613980691" class="instagram">
               <img height="18" width="18" className="instagramLogo" src={Instagramm}></img>
             </a>
-            <a href="https://vk.com/id220937096" class="Vk">
+            <a href="https://ok.ru/profile/587613980691" class="Vk">
               <img height="18" width="18" className="VkLogo" src={Vk}></img>
             </a>
-            <a href="https://vk.com/id220937096" class="odnoklassniki">
+            <a href="https://ok.ru/profile/587613980691" class="odnoklassniki">
               <img height="18" width="18" className="odnoklassnikiLogo" src={odnoklassniki}></img>
             </a>
           </div>
         </div>
-      </div>
-      <div className="container">
-        <div class="logo float-left">
-          <h1 class="text-light">
-            <a href="#intro" class="scrollto">
-              <span>Перспектива</span>
-            </a>
-          </h1>
+        <div id="ButtonLKDiv">
+          <Button
+            variant="contained"
+            className="ButtonLK"
+            color="primary"
+            size="large"
+            onClick={() => {
+              alert('Блок в стадии разработки');
+            }}>
+            Личный кабинет
+          </Button>
         </div>
-        <div className="LeftNeed">
+        <div className="logoMain">
+          <div className="logoMainComp">
+            <div className="logotextCenterImage">
+              <img src={CompanyLogoHeader}></img>
+            </div>
+            <div className="logotextCenterText">
+              <p className="logotextCenter">Учебный центр</p>
+              <br></br>
+              <p className="logotextCenter">"ПЕРСПЕКТИВА"</p>
+            </div>
+          </div>
+        </div>
+        <div className="LeftNeed" id="Menu">
           <nav class="main-nav float-right d-none d-lg-block">
             <ul class="ul-nav">
               <li class="active">
-                <a href="#intro">Главная</a>
+                <a href="#tImageSlider">Главная</a>
               </li>
               <li>
-                <a href="#about">О нас</a>
+                <a href="#tDirections">Курсы</a>
               </li>
               <li>
-                <a href="#services">Документы</a>
+                <a href="#documents">Документы</a>
               </li>
-              <li>
-                <a href="#team">Команда</a>
-              </li>
-
               <li>
                 <a href="#footer">Контакты</a>
               </li>

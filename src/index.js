@@ -5,10 +5,12 @@ import Header from './App';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
-import Lisa from './icons/lisa.jpg';
 import IntroPage from './components/intro/Intro';
 import Slider from './components/Slider/slider';
 import Footer from './components/footer/footer';
+import App from './App';
+import { Router, Route, Switch } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
 const FirebaseConfig = {
   apiKey: 'AIzaSyDXZWCEvhAla1toTGbtIucebgbcsJqvr98',
@@ -22,12 +24,9 @@ const FirebaseConfig = {
 };
 firebase.initializeApp(FirebaseConfig);
 ReactDOM.render(
-  <React.Fragment>
-    <Header />
-    <Slider />
-    <IntroPage />
-    <Footer />
-  </React.Fragment>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root'),
 );
 //<Slider />

@@ -64,6 +64,7 @@
   color: #000000;
   margin-top: 40px;
   line-height: normal;
+  margin-bottom: 10px;
 }
 .AboutCenterCardText > p2 {
   font-size: 15px;
@@ -79,9 +80,18 @@
   color: #000000;
   margin-top: 40px;
   line-height: normal;
+  margin-bottom: 10px;
 }
 .AboutCenterCardTextTeacher > p2 {
   font-size: 15px;
   color: #000000;
   line-height: normal;
+  margin-bottom: 1em;
+}
+
+.IntroAboutCenterLine {
+  width: 300px;
+  height: 2px;
+  margin-bottom: 1em;
+  background: linear-gradient(90deg, #f40082 0%, rgba(133, 49, 135, 0.7) 100%);
 }

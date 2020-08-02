@@ -49,7 +49,7 @@ class Slider extends React.Component {
               </div>
 
               <div>
-                <button>Подробнее</button>
+                <button className="ButtonSlider">Подробнее</button>
               </div>
             </div>
             <img className="SliderSlide" alt="" src={Slide9}></img>

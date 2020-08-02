@@ -22,6 +22,7 @@ function IntroAboutCenter() {
             </div>
             <div className="AboutCenterCardText">
               <p>Большой опыт работы</p>
+              <div className="IntroAboutCenterLine"></div>
               <p2>
                 Уже 11 лет наш учебный центр занимается реализацией дополнительных профессиональных
                 программ.
@@ -37,6 +38,7 @@ function IntroAboutCenter() {
             </div>
             <div className="AboutCenterCardTextTeacher">
               <p>Высококвалифицированные преподаватели</p>
+              <div className="IntroAboutCenterLine"></div>
               <p2>
                 Обучение проводится высококвалифицированными преподавателями с большим опытом
                 работы.
@@ -52,6 +54,7 @@ function IntroAboutCenter() {
             </div>
             <div className="AboutCenterCardText">
               <p>Сертификат </p>
+              <div className="IntroAboutCenterLine"></div>
               <p2>
                 По окончании обучения в центре вы получаете документы установленного образца. Это
                 дает гарантию качества полученных знаний и целесообразность ваших вложений.

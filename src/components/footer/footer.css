@@ -5,7 +5,7 @@
   grid-template-rows: repeat(1, 1fr);
   width: 100%;
   min-height: 100px;
-  text-align: center;
+  text-align: right;
   background-color: #97cbdc;
 }
 #footer > div {
@@ -13,6 +13,26 @@
 
 .footer-text {
   text-align: right;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-right: 30px;
+  padding-bottom: 30px;
+}
+#footer > a {
+  color: #8b0000;
+  display: block;
+  margin-right: 40px;
+}
+#footer > a:first-child {
+  margin: 0px 0px 0px 0px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+#footer > a:last-child {
+  margin: 0px 0px 0px 0px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.footer-text > h5 {
+  display: inline;
+  text-align: left;
 }

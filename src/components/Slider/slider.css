@@ -53,3 +53,17 @@
 .Carousel {
   opacity: 1;
 }
+
+.ButtonSlider {
+  background-color: #094d74;
+  height: 30px;
+  width: 120px;
+  filter: drop-shadow(5px 5px 4px rgba(117, 156, 216, 0.71));
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  background: linear-gradient(180deg, #f40082 0%, rgba(133, 49, 135, 0.7) 100%);
+  border-radius: 50px;
+}

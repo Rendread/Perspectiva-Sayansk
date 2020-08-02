@@ -81,13 +81,13 @@ function Header() {
                 <a href="#tImageSlider">Главная</a>
               </li>
               <li>
-                <a href="#tDirections">Курсы</a>
+                <a href="#tAboutCourses">Курсы</a>
               </li>
               <li>
                 <a href="#documents">Документы</a>
               </li>
               <li>
-                <a href="#footer">Контакты</a>
+                <a href="#tIntroContacts">Контакты</a>
               </li>
             </ul>
           </nav>

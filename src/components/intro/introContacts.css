@@ -1,4 +1,4 @@
-.IncroContactsWrapper {
+#IntroContactsWrapper {
   min-height: 600px;
   width: 100%;
   background: #cfdaec;
@@ -7,7 +7,7 @@
   grid-template-rows: none;
   grid-template-columns: 1fr 1fr;
 }
-.IncroContacts {
+.IntroContacts {
   margin-left: 77px;
   margin-top: 117px;
 }
@@ -23,9 +23,17 @@
   font-size: 25px;
   align-items: center;
   color: #000000;
+  line-height: normal;
 }
 .Map {
   border: solid;
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 95%;
+  margin: 15px;
+  margin-right: 10px;
+}
+#tIntroContacts {
+  position: absolute;
+  transform: translate(0px, -80px);
+  z-index: 1000;
 }

@@ -63,28 +63,32 @@ function Header() {
           </Button>
         </div>
         <div className="logoMain">
-          <div className="logoMainComp">
-            <div className="logotextCenterImage">
-              <img src={CompanyLogoHeader}></img>
+          <a href="/">
+            <div>
+              <div className="logoMainComp">
+                <div className="logotextCenterImage">
+                  <img src={CompanyLogoHeader}></img>
+                </div>
+                <div className="logotextCenterText">
+                  <p className="logotextCenter">Учебный центр</p>
+                  <br></br>
+                  <p className="logotextCenter">"ПЕРСПЕКТИВА"</p>
+                </div>
+              </div>
             </div>
-            <div className="logotextCenterText">
-              <p className="logotextCenter">Учебный центр</p>
-              <br></br>
-              <p className="logotextCenter">"ПЕРСПЕКТИВА"</p>
-            </div>
-          </div>
+          </a>
         </div>
         <div className="LeftNeed" id="Menu">
           <nav class="main-nav float-right d-none d-lg-block">
             <ul class="ul-nav">
               <li class="active">
-                <a href="#tImageSlider">Главная</a>
+                <a href="/">Главная</a>
               </li>
               <li>
-                <a href="#tAboutCourses">Курсы</a>
+                <a href="/#tAboutCourses">Курсы</a>
               </li>
               <li>
-                <a href="#documents">Документы</a>
+                <a href="/documents">Документы</a>
               </li>
               <li>
                 <a href="#tIntroContacts">Контакты</a>

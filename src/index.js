@@ -11,6 +11,7 @@ import Footer from './components/footer/footer';
 import App from './App';
 import { Router, Route, Switch } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
+import { Circle2 } from 'react-preloaders';
 
 const FirebaseConfig = {
   apiKey: 'AIzaSyDXZWCEvhAla1toTGbtIucebgbcsJqvr98',
@@ -26,6 +27,7 @@ firebase.initializeApp(FirebaseConfig);
 ReactDOM.render(
   <BrowserRouter>
     <App />
+    <Circle2 time={200} />
   </BrowserRouter>,
   document.getElementById('root'),
 );

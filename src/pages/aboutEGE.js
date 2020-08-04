@@ -6,15 +6,15 @@ import IntroPage from '../components/intro/Intro';
 import Slider from '../components/Slider/slider';
 import Footer from '../components/footer/footer';
 
-function Documents() {
+function AboutEGE() {
   return (
     <React.Fragment>
       <Header />
       <Slider />
-      <div>Документы</div>
+      <div>Про ЕГЭ</div>
       <Footer />
     </React.Fragment>
   );
 }
 
-export default Documents;
+export default AboutEGE;

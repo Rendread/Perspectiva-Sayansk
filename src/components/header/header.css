@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  color: #444;
+  color: #fff;
   font-family: Raleway;
 }
 
@@ -74,7 +74,7 @@ h6 {
   z-index: 997;
   /*background-color: rgb(53, 224, 247);*/
   /*background-image: -webkit-gradient(linear, right top, left top, from(#00abd1), to(#10cbd4));*/
-  background: rgba(117, 156, 216, 0.9);
+  background: rgba(132, 162, 207, 0.9); /*rgba(117, 156, 216, 0.9)*/
   opacity: 0.9;
 }
 

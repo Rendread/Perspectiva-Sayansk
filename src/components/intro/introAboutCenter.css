@@ -12,7 +12,11 @@
 }
 .AboutCenterMain {
   background-color: #9cb9d1;
-  background: linear-gradient(0deg, #9cb9d1 0%, #70a7d4);
+  background: linear-gradient(
+    0deg,
+    #aac0d1 0%,
+    #7cabd1
+  ); /*linear-gradient(0deg, #9cb9d1 0%, #70a7d4);*/
 }
 .AboutCenterDivText {
   text-align: center;

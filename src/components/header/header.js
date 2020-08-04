@@ -4,7 +4,7 @@ import Instagramm from '../../icons/instagram-sketched.svg';
 import Vk from '../../icons/vk.svg';
 import odnoklassniki from '../../icons/odnoklassniki.svg';
 import CompanyLogoHeader from '../../icons/companyLogoHeader.svg';
-
+import signInWithGoogle from '../../firebaseGoogle';
 import Button from '@material-ui/core/Button';
 import { Collapse } from '@material-ui/core';
 
@@ -56,9 +56,7 @@ function Header() {
             className="ButtonLK"
             color="primary"
             size="large"
-            onClick={() => {
-              alert('Блок в стадии разработки');
-            }}>
+            onClick={signInWithGoogle}>
             Личный кабинет
           </Button>
         </div>
@@ -91,7 +89,7 @@ function Header() {
                 <a href="/documents">Документы</a>
               </li>
               <li>
-                <a href="#tIntroContacts">Контакты</a>
+                <a href="/#tIntroContacts">Контакты</a>
               </li>
             </ul>
           </nav>

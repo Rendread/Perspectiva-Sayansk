@@ -16,7 +16,6 @@ function App() {
       <Route exact path="/" component={MainPage} />
       <Route exact path="/documents" component={Documents} />
       <Route exact path="/404" component={Error404} />
-      <Redirect from="*" to="/404" />
     </Switch>
   );
 }

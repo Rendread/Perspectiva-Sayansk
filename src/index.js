@@ -27,7 +27,6 @@ firebase.initializeApp(FirebaseConfig);
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Circle2 time={200} />
   </BrowserRouter>,
   document.getElementById('root'),
 );

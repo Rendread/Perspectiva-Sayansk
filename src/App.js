@@ -8,14 +8,14 @@ import Footer from './components/footer/footer';
 import MainPage from './pages/MainPage';
 import Documents from './pages/documents';
 import { Router, Route, Switch, Redirect } from 'react-router';
-import Error404 from './pages/404';
+import Error4041 from './pages/404';
 
 function App() {
   return (
     <Switch>
       <Route exact path="/" component={MainPage} />
       <Route exact path="/documents" component={Documents} />
-      <Route exact path="/404" component={Error404} />
+      <Route exact path="/404" component={Error4041} />
     </Switch>
   );
 }

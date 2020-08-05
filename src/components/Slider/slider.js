@@ -11,6 +11,8 @@ import Slide7 from '../../icons/slide7.jpg';
 import Slide8 from '../../icons/slide8.jpg';
 import Slide9 from '../../icons/slide9.jpg';
 import FirstSlide from '../../images/Slide1.png';
+import AdditionalProfessionalEducationSlide from '../../images/AdditionalProfessionalEducationSlide.jpg';
+import AboutBeautyCourse from '../../images/AboutBeautyCourse.jpg';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import CheckmarkSlider from '../../icons/checkmarkSlider.svg';
@@ -20,20 +22,6 @@ import { Icon } from '@material-ui/core';
 
 class Slider extends React.Component {
   render() {
-    const images = [
-      { url: Slide5 },
-      { url: Slide1 },
-      { url: Slide2 },
-      { url: Slide3 },
-      { url: Slide4 },
-      { url: Slide },
-      { url: Slide6 },
-      { url: Slide7 },
-      { url: Slide8 },
-      { url: Slide9 },
-      { url: FirstSlide },
-      { url: SliderIcon },
-    ];
     return (
       <div className="ImageSlider" id="tImageSlider">
         <Carousel
@@ -42,52 +30,136 @@ class Slider extends React.Component {
           showStatus={false}
           showArrows={true}
           showThumbs={false}
-          autoPlay={false}
+          autoPlay={true}
           interval={5000}
           infiniteLoop
           className="Carousel">
-          <div>
-            <div className="SliderHeading">
-              <div className="SliderHeadingEGEMain">
-                <h1>Подготовка к ЕГЭ и ОГЭ</h1>
-                <div className="SliderHeadingEGEMainText">
-                  <div>
-                    <img
-                      className="SliderHeadingEGEMainTextImg"
-                      style={{ width: '20px' }}
-                      src={SliderIcon}></img>
-                    <p> 23 занятия</p>
-                  </div>
-                  <div>
-                    <img
-                      className="SliderHeadingEGEMainTextImg"
-                      style={{ width: '20px' }}
-                      src={SliderIcon}></img>
-                    <p> 6 раз в неделю</p>
-                  </div>
-                  <div>
-                    <img
-                      className="SliderHeadingEGEMainTextImg"
-                      style={{ width: '20px' }}
-                      src={SliderIcon}></img>
-                    <p> 60 минут</p>
+          <a style={{ cursor: 'auto' }} href="/AboutAdditionalProffessionalEducation">
+            <div>
+              <div className="SliderHeading">
+                <div className="SliderHeadingEGEMain">
+                  <h1>Дополнительное профессиональное образование</h1>
+                  <div className="SliderHeadingEGEMainText">
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 23 занятия</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 6 раз в неделю</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 60 минут</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div>
-                <a href="/AboutEGE">
-                  <button className="ButtonSlider">Подробнее</button>
-                </a>
+                <div>
+                  <a href="/AboutEGE">
+                    <button className="ButtonSlider">Подробнее</button>
+                  </a>
+                </div>
+              </div>
+              <div className="SliderSlideBackground">
+                <img
+                  className="SliderSlide"
+                  alt=""
+                  src={AdditionalProfessionalEducationSlide}></img>
               </div>
             </div>
+          </a>
+          <a style={{ cursor: 'auto' }} href="/AboutAdditionalProffessionalEducation">
+            <div>
+              <div className="SliderHeading">
+                <div className="SliderHeadingEGEMain">
+                  <h1>Курсы красоты</h1>
+                  <div className="SliderHeadingEGEMainText">
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 23 занятия</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 6 раз в неделю</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 60 минут</p>
+                    </div>
+                  </div>
+                </div>
 
-            <img className="SliderSlide" alt="" src={Slide9}></img>
-            <div></div>
-          </div>
-          <div>
-            <img alt="" src={Slide6} />
-          </div>
+                <div>
+                  <a href="/AboutEGE">
+                    <button className="ButtonSlider">Подробнее</button>
+                  </a>
+                </div>
+              </div>
+              <div className="SliderSlideBackground">
+                <img className="SliderSlide" alt="" src={AboutBeautyCourse}></img>
+              </div>
+            </div>
+          </a>
+          <a style={{ cursor: 'auto' }} href="/AboutEGE">
+            <div>
+              <div className="SliderHeading">
+                <div className="SliderHeadingEGEMain">
+                  <h1>Подготовка к ЕГЭ и ОГЭ</h1>
+                  <div className="SliderHeadingEGEMainText">
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 23 занятия</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 6 раз в неделю</p>
+                    </div>
+                    <div>
+                      <img
+                        className="SliderHeadingEGEMainTextImg"
+                        style={{ width: '20px' }}
+                        src={SliderIcon}></img>
+                      <p> 60 минут</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <a href="/AboutEGE">
+                    <button className="ButtonSlider">Подробнее</button>
+                  </a>
+                </div>
+              </div>
+              <div className="SliderSlideBackgroundSecond">
+                <img className="SliderSlideSecond" alt="" src={Slide9}></img>
+              </div>
+            </div>
+          </a>
         </Carousel>
       </div>
     );

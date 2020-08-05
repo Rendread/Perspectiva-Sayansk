@@ -1,0 +1,353 @@
+/* ---------------------------------------------------
+------------------AboutEGEWrapper---------------------
+---------------------------------------------------------*/
+#AboutEGEWrapper {
+  height: 100%;
+}
+/* ---------------------------------------------------
+------------------EGEAboutCourses---------------------
+---------------------------------------------------------*/
+.EGEAboutCourses {
+  min-height: 500px;
+  background: #f8f8f6;
+  min-width: 100%;
+  display: block;
+}
+.EGEAboutCoursesContainer {
+  display: block;
+  padding-left: 10%;
+  padding-top: 60px;
+}
+.EGEAboutCoursesContainerText {
+  width: 70%;
+}
+.EGEAboutCoursesContainerText > h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+  font-size: 40px;
+  line-height: 53px;
+  opacity: 1;
+}
+.EGEAboutCoursesContainerText > p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  opacity: 0.9;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.EGEAboutCoursesContainerTextFirstP {
+  margin-top: 70px;
+}
+/* ---------------------------------------------------
+------------------EGEFormEducation---------------------
+---------------------------------------------------------*/
+.EGEFormEducation {
+  min-width: 100%;
+  min-height: 2050px;
+  display: block;
+  background: rgba(207, 218, 236, 0.4);
+}
+.EGEFormEducationContainer {
+  margin-left: 10%;
+  padding-top: 100px;
+}
+.EGEFormEducationContainer > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.EGEFormEducationPreTextDivFirst {
+  width: 40%;
+  border: 2px solid #f40082;
+  margin-top: 100px;
+}
+.EGEFormEducationPreTextDivFirst > div {
+  text-align: center;
+}
+.EGEFormEducationPreTextDiv {
+  width: 40%;
+  border: 2px solid #f40082;
+  margin-top: 60px;
+}
+.EGEFormEducationPreTextDiv > div {
+  text-align: center;
+}
+
+.EGEFormEducationPreText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+.EGEFormEducationPreTextBold {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px 10px 0px;
+  font-weight: bold;
+}
+
+.EGEFormEducationText {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+  width: 65%;
+  margin-top: 30px;
+}
+
+.EGEFormEducationTextContainerEllipse {
+  display: block;
+  margin-top: 20px;
+  max-width: 100%;
+}
+.EGEFormEducationTextContainerEllipse > div {
+  display: inline-block;
+}
+
+.egeformeducationtextcontainerellipseP1 {
+  margin-left: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}
+.EGEFormEducationEllipse {
+  min-width: 9px;
+  min-height: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 0, 130, 0.85) 0%,
+    rgba(195, 22, 132, 0.79) 44.44%,
+    rgba(186, 26, 133, 0.73) 51.74%,
+    rgba(180, 28, 133, 0.75) 56.42%,
+    rgba(133, 49, 135, 0.91) 100%
+  );
+  border-radius: 50%;
+}
+/* ---------------------------------------------------
+------------------EGEDurationCourses---------------------
+---------------------------------------------------------*/
+.EGEDurationCourses {
+  min-width: 100%;
+  min-height: 900px;
+  display: block;
+  background: #094d74;
+}
+.EGEDurationCoursesContainer {
+  margin-left: 10%;
+  padding-top: 70px;
+}
+.EGEDurationCoursesContainer > h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.EGEDurationCoursesTimeContainer {
+  margin-top: 60px;
+  height: 100px;
+  width: 680px;
+  border: solid;
+  text-align: center;
+}
+.EGEDurationCoursesTimeContainer > p {
+  margin-top: 3px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+  margin-bottom: 0px;
+
+  color: #ffffff;
+}
+.EGEDurationCoursesUnderTimeContainerText {
+  margin-top: 40px;
+}
+.EGEDurationCoursesUnderTimeContainerText > p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.EGEDurationCoursesDattaOfClasses {
+  margin-top: 40px;
+}
+.EGEDurationCoursesDattaOfClasses > p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+/* ---------------------------------------------------
+------------------EGEPriceCourses---------------------
+---------------------------------------------------------*/
+.EGEPriceCourses {
+  min-width: 100%;
+  min-height: 850px;
+  display: block;
+  background: #f3f6fa;
+}
+.EGEPriceCoursesContainer {
+  margin-left: 10%;
+  padding-top: 70px;
+}
+.EGEPriceCoursesContainer > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  width: 80%;
+  color: #000000;
+}
+.EGEPriceCoursesUnderPrice {
+  margin-top: 70px;
+}
+.EGEPriceCoursesUnderPrice > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.EGEPriceCoursesPrice {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+}
+.EGEPriceCoursesPrice > p {
+  margin-bottom: 0px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.EGEPriceCoursesTextContainer {
+  margin-top: 55px;
+  border: 2px solid rgba(62, 65, 70, 0.4);
+  width: 70%;
+  background: rgba(201, 211, 226, 0.4);
+}
+.EGEPriceCoursesTextContainer > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+/* ---------------------------------------------------
+------------------EGEModeCourses---------------------
+---------------------------------------------------------*/
+.EGEModeCourses {
+  min-width: 100%;
+  min-height: 800px;
+  display: block;
+  background: #759cd8;
+}
+.EGEModeCoursesContainer {
+  margin-left: 10%;
+  padding-top: 70px;
+}
+.EGEModeCoursesContainer > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.EGEModeText {
+  margin-top: 60px;
+  width: 80%;
+}
+.EGEModeCoursesText {
+  margin-top: 60px;
+}
+.EGEModeCoursesText > p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.EGEModeCoursesIcons {
+  margin-top: 110px;
+  margin-right: 10%;
+  height: 400px;
+  display: grid;
+  grid-gap: 10%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.EGEModeCoursesIconsCard {
+  display: block;
+  text-align: center;
+}
+.EGEModeCoursesIconsCard > p {
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

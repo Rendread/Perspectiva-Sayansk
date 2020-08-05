@@ -1,14 +1,10 @@
-import React, { Component, useRef, useEffect } from 'react';
-import './introDirections.css';
-import LeftIntro from './leftIntro';
-import Button from '@material-ui/core/Button';
-import Education from '../../icons/education.jpg';
+import React from 'react';
+import './aboutAddProffEducation.css';
 import TrainingIntro from '../../icons/trainingIntro.svg';
 import beautyIntro from '../../icons/beautyIntro.svg';
 import homeworkIntro from '../../icons/homeworkIntro.svg';
-import ElisabethFont from '../../fonts/elisabeth.ttf';
 
-function IntroDirection() {
+function AboutAddProffEducation() {
   return (
     <div>
       <div id="tAboutCourses"></div>
@@ -29,7 +25,7 @@ function IntroDirection() {
                 </button>
               </div>
               <div className="AboutCenterDirectionsThing">
-                <p>Подготовка к ОГЭ/ЕГЭ</p>
+                <p>Менеджер по персоналу</p>
                 <p2>
                   Наши курсы позволят не только преодолеть испытания при сдаче ОГЭ и ЕГЭ, но и
                   получить высокий балл.
@@ -41,13 +37,13 @@ function IntroDirection() {
               <img src={TrainingIntro} style={{ height: 100, marginTop: '20px' }} />
               <div className="AboutCenterDirectionsButtonDiv">
                 <button className="AboutCenterDirectionsButton">
-                  <a href="/AboutAdditionalProffessionalEducation">
+                  <a>
                     <p>Подробнее</p>
                   </a>
                 </button>
               </div>
               <div className="AboutCenterDirectionsThing">
-                <p>Дополнительное Профессиональное Образование</p>
+                <p>Инспектор по кадрам</p>
                 <p2>Дополнительное Профессиональное Образование</p2>
               </div>
             </div>
@@ -62,7 +58,7 @@ function IntroDirection() {
                 </button>
               </div>
               <div className="AboutCenterDirectionsThing">
-                <p>Курсы красоты</p>
+                <p>Бухгалтерский учет на предприятии</p>
                 <p2>Курсы красоты</p2>
               </div>
             </div>
@@ -74,4 +70,4 @@ function IntroDirection() {
   );
 }
 
-export default IntroDirection;
+export default AboutAddProffEducation;

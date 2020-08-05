@@ -57,7 +57,7 @@
   display: block;
   border: 1px solid #094d74;
   text-align: left;
-  background-color: rgb(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.918);
 }
 .AboutCenterDirections > img {
   margin-left: 35px;
@@ -72,6 +72,11 @@
   text-align: left;
   margin-top: 0px;
   line-height: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+
+  color: #000000;
 }
 .AboutCenterDirectionsThing > p {
   margin: 0px 0px 20px 0px;
@@ -113,7 +118,7 @@
 .AboutCenterDirectionsButton:active {
   background-color: #3995ca;
 }
-.AboutCenterDirectionsButton > p {
+.AboutCenterDirectionsButton > a > p {
   color: #eef0f6;
   text-align: center;
   display: inline;

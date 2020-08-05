@@ -9,6 +9,7 @@ import Footer from './components/footer/footer';
 import MainPage from './pages/MainPage';
 import Documents from './pages/documents';
 import AboutEGE from './pages/aboutEGE';
+import AboutAdditionalProffessionalEducation from './pages/AboutAdditionalProffessionalEducation';
 
 import Error404 from './pages/404';
 
@@ -18,6 +19,11 @@ function App() {
       <Route exact path="/" component={MainPage} />
       <Route exact path="/documents" component={Documents} />
       <Route exact path="/AboutEGE" component={AboutEGE} />
+      <Route
+        exact
+        path="/AboutAdditionalProffessionalEducation"
+        component={AboutAdditionalProffessionalEducation}
+      />
       <Redirect from="*" to="/"></Redirect>
     </Switch>
   );

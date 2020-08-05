@@ -5,17 +5,17 @@ import AppPage from '../components/intro/Intro';
 import IntroPage from '../components/intro/Intro';
 import Slider from '../components/Slider/slider';
 import Footer from '../components/footer/footer';
-import AboutEGE from '../components/aboutEGE/aboutEGE';
+import AboutAddProffEducation from '../components/aboutAddProffEducation/aboutAddProffEducation';
 
-function AboutEGEPage() {
+function AboutAdditionalProffessionalEducation() {
   return (
     <React.Fragment>
       <Header />
       <Slider />
-      <AboutEGE />
+      <AboutAddProffEducation />
       <Footer />
     </React.Fragment>
   );
 }
 
-export default AboutEGEPage;
+export default AboutAdditionalProffessionalEducation;

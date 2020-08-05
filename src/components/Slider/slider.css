@@ -76,10 +76,19 @@
   border-radius: 50px;
 }
 
+.SliderSlideBackground {
+  background-color: #84a4b6;
+}
+.SliderSlideBackgroundSecond {
+  background-color: #d4d4d4;
+}
 .SliderSlide {
-  opacity: 0.9;
+  opacity: 0.5;
   background-color: #ffffff;
   color: #ffffff;
+}
+.SliderSlideSecond {
+  opacity: 0.5;
 }
 
 .SliderHeadingEGEMainText {

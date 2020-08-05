@@ -35,26 +35,26 @@
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 29px;
+  line-height: 40px;
   opacity: 0.9;
   color: #000000;
   margin-bottom: 5px;
 }
 .EGEAboutCoursesContainerTextFirstP {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 /* ---------------------------------------------------
 ------------------EGEFormEducation---------------------
 ---------------------------------------------------------*/
 .EGEFormEducation {
   min-width: 100%;
-  min-height: 2050px;
+  min-height: 1900px;
   display: block;
   background: rgba(207, 218, 236, 0.4);
 }
 .EGEFormEducationContainer {
   margin-left: 10%;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .EGEFormEducationContainer > h1 {
   font-style: normal;
@@ -68,7 +68,7 @@
 .EGEFormEducationPreTextDivFirst {
   width: 40%;
   border: 2px solid #f40082;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .EGEFormEducationPreTextDivFirst > div {
   text-align: center;

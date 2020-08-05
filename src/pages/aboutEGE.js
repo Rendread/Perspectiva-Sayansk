@@ -6,6 +6,7 @@ import IntroPage from '../components/intro/Intro';
 import Slider from '../components/Slider/slider';
 import Footer from '../components/footer/footer';
 import AboutEGE from '../components/aboutEGE/aboutEGE';
+import IntroContacts from '../components/intro/introContacts';
 
 function AboutEGEPage() {
   return (
@@ -13,6 +14,7 @@ function AboutEGEPage() {
       <Header />
       <Slider />
       <AboutEGE />
+      <IntroContacts />
       <Footer />
     </React.Fragment>
   );

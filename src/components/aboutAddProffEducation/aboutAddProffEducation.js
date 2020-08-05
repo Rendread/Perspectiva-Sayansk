@@ -1,69 +1,283 @@
 import React from 'react';
 import './aboutAddProffEducation.css';
 import TrainingIntro from '../../icons/trainingIntro.svg';
-import beautyIntro from '../../icons/beautyIntro.svg';
-import homeworkIntro from '../../icons/homeworkIntro.svg';
-
+import BeautyIntro from '../../icons/beautyIntro.svg';
+import HomeworkIntro from '../../icons/homeworkIntro.svg';
+import AboutAddProfEducationManagerOfPersonal from '../../images/aboutAddProfEducationManagerOfPersonal.png';
+import AboutAddProfEducationManagerOfCadr from '../../images/AboutAddProfEducationManagerOfCadr.png';
+import AboutAddProfEducationManagerOfBuch from '../../images/AboutAddProfEducationManagerOfBuch.png';
 function AboutAddProffEducation() {
   return (
-    <div>
-      <div id="tAboutCourses"></div>
-      <div id="Grid-Intro">
-        <div className="MainIntro">
-          <div className="AboutCenter" id="tDirections">
-            <h3>Наши направления</h3>
+    <div className="AboutAddProffEducationWrapper">
+      <div className="AboutAddProffEducationCards">
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfPersonal}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Менеджер по персоналу</h1>
+              <p>
+                Основная задача менеджера – формирование кадрового состава предприятия, но его
+                обязанности гораздо шире, чем у привычного «кадровика». Помимо непосредственно
+                отбора сотрудников, он занимается организацией их обучения, поддерживает приятную
+                рабочую атмосферу и положительную мотивацию у подчинённых.{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>21 000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>3.5 месяца (372 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>очная/заочная/дистанционная</b>
+                </p>
+
+                <p>Подробнее...</p>
+              </div>
+            </div>
           </div>
-          <div className="AboutCenterP">
-            <div></div>
-            <div className="AboutCenterDirections">
-              <img src={homeworkIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a href="/AboutEGE">
-                    <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
-              <div className="AboutCenterDirectionsThing">
-                <p>Менеджер по персоналу</p>
-                <p2>
-                  Наши курсы позволят не только преодолеть испытания при сдаче ОГЭ и ЕГЭ, но и
-                  получить высокий балл.
-                </p2>
+        </a>
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfCadr}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Инспектор по кадрам</h1>
+              <p>
+                Хотите получить качественные знания по кадровому делопроизводству? Курс «Инспектор
+                по кадрам» - это то, что вам нужно!{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>14000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>2 месяца (246 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>дневная</b>
+                </p>
+
+                <p>Подробнее...</p>
               </div>
             </div>
-            <div></div>
-            <div className="AboutCenterDirections">
-              <img src={TrainingIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a>
-                    <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
-              <div className="AboutCenterDirectionsThing">
-                <p>Инспектор по кадрам</p>
-                <p2>Дополнительное Профессиональное Образование</p2>
-              </div>
-            </div>
-            <div></div>
-            <div className="AboutCenterDirections">
-              <img src={beautyIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a>
-                    <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
-              <div className="AboutCenterDirectionsThing">
-                <p>Бухгалтерский учет на предприятии</p>
-                <p2>Курсы красоты</p2>
-              </div>
-            </div>
-            <div></div>
           </div>
+        </a>
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfBuch}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Бухгалтерский учет на предприятии</h1>
+              <p>
+                Специальность бухгалтера является одной из самых популярных и востребованных. Каждый
+                руководитель стремится найти компетентного бухгалтера, у представителей этой
+                профессии есть свой праздник, а о важности их деятельности знает даже ребёнок.{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>21 000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>3.5 месяца (372 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>очная/заочная/очно-заочная</b>
+                </p>
+
+                <p>Подробнее...</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfPersonal}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Менеджер по персоналу</h1>
+              <p>
+                Основная задача менеджера – формирование кадрового состава предприятия, но его
+                обязанности гораздо шире, чем у привычного «кадровика». Помимо непосредственно
+                отбора сотрудников, он занимается организацией их обучения, поддерживает приятную
+                рабочую атмосферу и положительную мотивацию у подчинённых.{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>21 000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>3.5 месяца (372 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>очная/заочная/дистанционная</b>
+                </p>
+
+                <p>Подробнее...</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfPersonal}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Менеджер по персоналу</h1>
+              <p>
+                Основная задача менеджера – формирование кадрового состава предприятия, но его
+                обязанности гораздо шире, чем у привычного «кадровика». Помимо непосредственно
+                отбора сотрудников, он занимается организацией их обучения, поддерживает приятную
+                рабочую атмосферу и положительную мотивацию у подчинённых.{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>21 000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>3.5 месяца (372 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>очная/заочная/дистанционная</b>
+                </p>
+
+                <p>Подробнее...</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="/">
+          <div className="AboutAddProffEducationCardsContent">
+            <div className="AboutAddProffEducationCardsImages">
+              <img src={AboutAddProfEducationManagerOfPersonal}></img>
+            </div>
+            <div className="AboutAddProffEducationCardsText">
+              <h1>Менеджер по персоналу</h1>
+              <p>
+                Основная задача менеджера – формирование кадрового состава предприятия, но его
+                обязанности гораздо шире, чем у привычного «кадровика». Помимо непосредственно
+                отбора сотрудников, он занимается организацией их обучения, поддерживает приятную
+                рабочую атмосферу и положительную мотивацию у подчинённых.{' '}
+              </p>
+              <div className="AboutAddProffEducationCardsPriceTextGrid">
+                <p>Стоимость курса</p>
+                <p>
+                  <b>21 000 руб (по 7000 руб в месяц)</b>
+                </p>
+                <p></p>
+                <p>Длительность курса:</p>
+                <p>
+                  <b>3.5 месяца (372 ак.часа)</b>
+                </p>
+                <p></p>
+                <p>Начало занятий:</p>
+                <p>
+                  <b>по набору группы</b>
+                </p>
+                <p></p>
+                <p>Режим обучения</p>
+                <p>
+                  <b>2</b>
+                </p>
+                <p></p>
+                <p>Форма обучения</p>
+                <p>
+                  <b>очная/заочная/дистанционная</b>
+                </p>
+
+                <p>Подробнее...</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </div>

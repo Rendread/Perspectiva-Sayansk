@@ -89,7 +89,7 @@ function Header() {
                 <a href="/documents">Документы</a>
               </li>
               <li>
-                <a href="/#tIntroContacts">Контакты</a>
+                <a href="#tIntroContacts">Контакты</a>
               </li>
             </ul>
           </nav>

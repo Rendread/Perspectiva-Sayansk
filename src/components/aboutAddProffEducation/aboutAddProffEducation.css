@@ -1,0 +1,79 @@
+.AboutAddProffEducationWrapper {
+  background: #f3f6fa;
+  width: 100%;
+  min-height: 2700px;
+  display: block;
+}
+.AboutAddProffEducationCards {
+  height: 420px;
+  background: #f3f6fa;
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+}
+.AboutAddProffEducationCardsContent {
+  display: grid;
+  margin-bottom: 40px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #759cd8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(117, 156, 216, 0.4);
+}
+.AboutAddProffEducationCardsImages {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.AboutAddProffEducationCardsText {
+  display: inline-block;
+  height: 100%;
+  margin-left: 70px;
+}
+.AboutAddProffEducationCardsText > h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+
+  text-transform: uppercase;
+  margin-top: 35px;
+  color: #000000;
+  margin-right: 10%;
+}
+
+.AboutAddProffEducationCardsText > p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #000000;
+  margin-right: 10%;
+  text-align: left;
+}
+.AboutAddProffEducationCardsPriceTextGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 25% 5fr 1fr;
+  grid-template-rows: repeat(6 1fr);
+  margin-bottom: 0px;
+}
+.AboutAddProffEducationCardsPriceTextGrid > p {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: normal;
+
+  color: #000000;
+}
+.AboutAddProffEducationCardsPriceTextGrid > p:last-child {
+  margin-top: 40%;
+  margin-bottom: 20%;
+}

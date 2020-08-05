@@ -6,6 +6,7 @@ import IntroPage from '../components/intro/Intro';
 import Slider from '../components/Slider/slider';
 import Footer from '../components/footer/footer';
 import AboutAddProffEducation from '../components/aboutAddProffEducation/aboutAddProffEducation';
+import IntroContacts from '../components/intro/introContacts';
 
 function AboutAdditionalProffessionalEducation() {
   return (
@@ -13,6 +14,7 @@ function AboutAdditionalProffessionalEducation() {
       <Header />
       <Slider />
       <AboutAddProffEducation />
+      <IntroContacts />
       <Footer />
     </React.Fragment>
   );

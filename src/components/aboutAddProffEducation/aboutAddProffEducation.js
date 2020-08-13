@@ -1,8 +1,5 @@
 import React from 'react';
 import './aboutAddProffEducation.css';
-import TrainingIntro from '../../icons/trainingIntro.svg';
-import BeautyIntro from '../../icons/beautyIntro.svg';
-import HomeworkIntro from '../../icons/homeworkIntro.svg';
 import AboutAddProfEducationManagerOfPersonal from '../../images/aboutAddProfEducationManagerOfPersonal.png';
 import AboutAddProfEducationManagerOfCadr from '../../images/AboutAddProfEducationManagerOfCadr.png';
 import AboutAddProfEducationManagerOfBuch from '../../images/AboutAddProfEducationManagerOfBuch.png';
@@ -10,12 +7,14 @@ function AboutAddProffEducation() {
   return (
     <div className="AboutAddProffEducationWrapper">
       <div className="AboutAddProffEducationCards">
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfPersonal}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfPersonal}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a
+              style={{ cursor: '' }}
+              href={'/AboutAdditionalProffessionalEducation/ManagerOfPersonal'}>
               <h1>Менеджер по персоналу</h1>
               <p>
                 Основная задача менеджера – формирование кадрового состава предприятия, но его
@@ -51,15 +50,16 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfCadr}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        </div>
+
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfCadr}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a style={{ cursor: '' }} href={'/AboutAdditionalProffessionalEducation/HRManager'}>
               <h1>Инспектор по кадрам</h1>
               <p>
                 Хотите получить качественные знания по кадровому делопроизводству? Курс «Инспектор
@@ -93,15 +93,18 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfBuch}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        </div>
+
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfBuch}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a
+              style={{ cursor: '' }}
+              href={'/AboutAdditionalProffessionalEducation/ManagerOfAccountant'}>
               <h1>Бухгалтерский учет на предприятии</h1>
               <p>
                 Специальность бухгалтера является одной из самых популярных и востребованных. Каждый
@@ -136,15 +139,17 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfPersonal}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        </div>
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfPersonal}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a
+              style={{ cursor: '' }}
+              href={'/AboutAdditionalProffessionalEducation/ManagerOfPersonal'}>
               <h1>Менеджер по персоналу</h1>
               <p>
                 Основная задача менеджера – формирование кадрового состава предприятия, но его
@@ -180,15 +185,17 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfPersonal}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        </div>
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfPersonal}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a
+              style={{ cursor: '' }}
+              href={'/AboutAdditionalProffessionalEducation/ManagerOfPersonal'}>
               <h1>Менеджер по персоналу</h1>
               <p>
                 Основная задача менеджера – формирование кадрового состава предприятия, но его
@@ -224,15 +231,17 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
-        <a href="/">
-          <div className="AboutAddProffEducationCardsContent">
-            <div className="AboutAddProffEducationCardsImages">
-              <img src={AboutAddProfEducationManagerOfPersonal}></img>
-            </div>
-            <div className="AboutAddProffEducationCardsText">
+        </div>
+        <div className="AboutAddProffEducationCardsContent">
+          <div className="AboutAddProffEducationCardsImages">
+            <img src={AboutAddProfEducationManagerOfPersonal}></img>
+          </div>
+          <div className="AboutAddProffEducationCardsText">
+            <a
+              style={{ cursor: '' }}
+              href={'/AboutAdditionalProffessionalEducation/ManagerOfPersonal'}>
               <h1>Менеджер по персоналу</h1>
               <p>
                 Основная задача менеджера – формирование кадрового состава предприятия, но его
@@ -268,9 +277,9 @@ function AboutAddProffEducation() {
 
                 <p>Подробнее...</p>
               </div>
-            </div>
+            </a>
           </div>
-        </a>
+        </div>
         <div>
           <div></div>
           <div></div>

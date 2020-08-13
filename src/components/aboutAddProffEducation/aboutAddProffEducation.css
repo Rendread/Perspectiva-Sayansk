@@ -1,12 +1,12 @@
 .AboutAddProffEducationWrapper {
-  background: #f3f6fa;
+  background: #f3f3f3;
   width: 100%;
   min-height: 2700px;
   display: block;
 }
 .AboutAddProffEducationCards {
   height: 420px;
-  background: #f3f6fa;
+  background: #f3f3f3;
   width: 100%;
   display: block;
   padding-top: 100px;
@@ -33,7 +33,7 @@
   height: 100%;
   margin-left: 70px;
 }
-.AboutAddProffEducationCardsText > h1 {
+.AboutAddProffEducationCardsText > a > h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -45,7 +45,7 @@
   margin-right: 10%;
 }
 
-.AboutAddProffEducationCardsText > p {
+.AboutAddProffEducationCardsText > a > p {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: normal;

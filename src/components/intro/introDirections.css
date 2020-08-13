@@ -16,8 +16,8 @@
 
 .MainIntro {
   text-align: center;
-  background-color: #cfdaec;
-  background: linear-gradient(180deg, #cfdaec 0%, #a6bbcc);
+  background-color: #f3f3f3;
+  /*background: linear-gradient(180deg, #cfdaec 0%, #a6bbcc);*/
   display: inline;
 }
 
@@ -118,8 +118,8 @@
 .AboutCenterDirectionsButton:active {
   background-color: #3995ca;
 }
-.AboutCenterDirectionsButton > a > p {
-  color: #eef0f6;
+.AboutCenterDirectionsButton > p {
+  color: #ffffff;
   text-align: center;
   display: inline;
 }

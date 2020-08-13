@@ -83,12 +83,12 @@
   background-color: #d4d4d4;
 }
 .SliderSlide {
-  opacity: 0.5;
+  opacity: 1;
   background-color: #ffffff;
   color: #ffffff;
 }
 .SliderSlideSecond {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .SliderHeadingEGEMainText {
@@ -104,4 +104,9 @@
 
 .SliderHeadingEGEMainText > div {
   display: inline;
+}
+
+#TNextPage {
+  position: absolute;
+  margin-top: 300px;
 }

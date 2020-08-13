@@ -34,7 +34,7 @@ class Slider extends React.Component {
           interval={5000}
           infiniteLoop
           className="Carousel">
-          <a style={{ cursor: 'auto' }} href="/AboutAdditionalProffessionalEducation">
+          <a style={{ cursor: 'pointer' }} href="/AboutAdditionalProffessionalEducation#TNextPage">
             <div>
               <div className="SliderHeading">
                 <div className="SliderHeadingEGEMain">
@@ -42,6 +42,7 @@ class Slider extends React.Component {
                   <div className="SliderHeadingEGEMainText">
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -49,6 +50,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -56,6 +58,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -65,7 +68,7 @@ class Slider extends React.Component {
                 </div>
 
                 <div>
-                  <a href="/AboutEGE">
+                  <a href="/AboutAdditionalProffessionalEducation#TNextPage">
                     <button className="ButtonSlider">Подробнее</button>
                   </a>
                 </div>
@@ -78,7 +81,7 @@ class Slider extends React.Component {
               </div>
             </div>
           </a>
-          <a style={{ cursor: 'auto' }} href="/AboutAdditionalProffessionalEducation">
+          <a style={{ cursor: 'auto' }} href="/AboutAdditionalProffessionalEducation#TNextPage">
             <div>
               <div className="SliderHeading">
                 <div className="SliderHeadingEGEMain">
@@ -86,6 +89,7 @@ class Slider extends React.Component {
                   <div className="SliderHeadingEGEMainText">
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -93,6 +97,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -100,6 +105,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -109,7 +115,7 @@ class Slider extends React.Component {
                 </div>
 
                 <div>
-                  <a href="/AboutEGE">
+                  <a href="/AboutEGE#TNextPage">
                     <button className="ButtonSlider">Подробнее</button>
                   </a>
                 </div>
@@ -119,7 +125,7 @@ class Slider extends React.Component {
               </div>
             </div>
           </a>
-          <a style={{ cursor: 'auto' }} href="/AboutEGE">
+          <a style={{ cursor: 'auto' }} href="/AboutEGE#TNextPage">
             <div>
               <div className="SliderHeading">
                 <div className="SliderHeadingEGEMain">
@@ -127,6 +133,7 @@ class Slider extends React.Component {
                   <div className="SliderHeadingEGEMainText">
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -134,6 +141,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -141,6 +149,7 @@ class Slider extends React.Component {
                     </div>
                     <div>
                       <img
+                        alt=""
                         className="SliderHeadingEGEMainTextImg"
                         style={{ width: '20px' }}
                         src={SliderIcon}></img>
@@ -150,7 +159,7 @@ class Slider extends React.Component {
                 </div>
 
                 <div>
-                  <a href="/AboutEGE">
+                  <a href="/AboutEGE#TNextPage">
                     <button className="ButtonSlider">Подробнее</button>
                   </a>
                 </div>
@@ -161,6 +170,7 @@ class Slider extends React.Component {
             </div>
           </a>
         </Carousel>
+        <div id="TNextPage"></div>
       </div>
     );
   }

@@ -1,0 +1,91 @@
+.AboutEGEPagesContent {
+  width: 100%;
+  height: 800px;
+  display: block;
+}
+.AboutEGEPagesContentTextContainer {
+  margin-left: 150px;
+  margin-top: 85px;
+}
+.AboutEGEPagesContentImage {
+  opacity: 0.8;
+  position: absolute;
+  z-index: -1;
+}
+.AboutEGEPagesContentContainerInImage {
+  margin-left: 85px;
+  padding-top: 55px;
+}
+.AboutEGEPagesContentContainerInImage > h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.AboutEGEPagesContentContainerInImageTextUnderHead {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  margin-right: 40%;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.AboutEGEPagesContentContainerInImage > p {
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  color: #000000;
+}
+.AboutEGEPagesContentContainerEllipse {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+}
+.AboutEGEPagesContentEllipse {
+  min-width: 9px;
+  min-height: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 0, 130, 0.85) 0%,
+    rgba(195, 22, 132, 0.79) 44.44%,
+    rgba(186, 26, 133, 0.73) 51.74%,
+    rgba(180, 28, 133, 0.75) 56.42%,
+    rgba(133, 49, 135, 0.91) 100%
+  );
+  border-radius: 50%;
+  margin-bottom: 3px;
+}
+.AboutEGEPagesContentTextContainerEllipseP1 {
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 10px;
+  color: #000000;
+}
+.AboutEGEPagesContentContainerEllipse > div {
+  display: inline-block;
+}
+.AboutEGEPagesContentContainerFooter {
+  margin-top: 30px;
+}
+.AboutEGEPagesContentContainerFooter > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  margin-bottom: 25px;
+  color: #000000;
+}

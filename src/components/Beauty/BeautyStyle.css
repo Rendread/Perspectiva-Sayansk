@@ -1,0 +1,145 @@
+#CourseOfBeautyWrapper {
+  min-height: 680px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.CourseOfBeautyContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 400px;
+  width: 80%;
+}
+.CourseOfBeautyCards {
+  min-height: 400px;
+  width: 30%;
+}
+.CourseOfBeautyCardsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.CourseOfBeautyCardsText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 150px;
+  width: 100%;
+  background-color: #0065dd;
+}
+.CourseOfBeautyCardsImage {
+  height: 250px;
+  width: 100%;
+}
+.CourseOfBeautyCardsText > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 90%;
+  color: #f8f9fc;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.CourseOfBeautyCardsText > p:last-child {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #f8f9fc;
+
+  opacity: 0.8;
+}
+/* ------------------------------------------------------------
+--------------------------Hairdresser--------------------------
+---------------------------------------------------------------*/
+.HairdresserWrapper {
+  width: 100%;
+  min-height: 950px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HairdresserContainer {
+  width: 70%;
+  height: 100%;
+}
+.HairdresserContainer > h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 100px;
+  color: #000000;
+}
+.HairdresserContainerNavigation {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 400px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+.HairdresserContainerNavigationFirstRow {
+  min-height: 300px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.HairdresserContainerNavigationSecondRow {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.HairdresserContainerNavigationCards {
+  min-height: 300px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.HairdresserContainerCircle {
+  min-height: 250px;
+  min-width: 250px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.HairdresserContainerNavigationCards > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.HairdresserContainerNavigationCards > p:last-child {
+  margin-bottom: 30px;
+}
+.HairdresserContainerNavigationFirstP {
+  margin-top: 20px;
+}

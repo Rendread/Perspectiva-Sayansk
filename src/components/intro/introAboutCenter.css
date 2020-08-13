@@ -11,8 +11,8 @@
   /*border: solid;*/
 }
 .AboutCenterMain {
-  background-color: #9cb9d1;
-  background: linear-gradient(
+  background-color: #e8eaff;
+  /*background: linear-gradient(
     0deg,
     #aac0d1 0%,
     #7cabd1
@@ -25,7 +25,7 @@
 .AboutCenterDivText > p {
   font-size: 36px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -43,7 +43,7 @@
 }
 .AboutCenterIcon {
   background-color: #eef0f6;
-  opacity: 0.5;
+  opacity: 1;
   height: 154px;
   width: 154px;
   display: block;

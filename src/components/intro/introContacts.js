@@ -28,23 +28,23 @@ class IntroContacts extends Component {
         <div id="IntroContactsWrapper">
           <div className="IntroContacts">
             <div className="ContactsBlock">
-              <img src={LocationIntroContacts}></img>
+              <img src={LocationIntroContacts} style={{ height: 40 }}></img>
               <p>666303, РФ, Иркутская область, г. Саянск, мкр. Строителей, дом 32</p>
             </div>
             <div className="ContactsBlock">
-              <img src={ClockIntroContact}></img>
+              <img src={ClockIntroContact} style={{ height: 40 }}></img>
               <p>Понедельник-Пятница с 10:00 до 18:00</p>
             </div>
             <div className="ContactsBlock">
-              <img src={PhoneIntroContact}></img>
+              <img src={PhoneIntroContact} style={{ height: 40 }}></img>
               <p>8-395-53-5-12-22</p>
             </div>
             <div className="ContactsBlock">
-              <img src={TelephoneIntroContact}></img>
+              <img src={TelephoneIntroContact} style={{ height: 40 }}></img>
               <p>8-908-644-77-84</p>
             </div>
             <div className="ContactsBlock">
-              <img src={MailIntroContact}></img>
+              <img src={MailIntroContact} style={{ height: 40 }}></img>
               <p>perspektiva_nou@mail.ru</p>
             </div>
           </div>

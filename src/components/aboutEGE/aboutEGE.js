@@ -10,6 +10,7 @@ import englandModeCourses from '../../icons/englandModeCourses.svg';
 import monitorModeCourses from '../../icons/monitorModeCourses.svg';
 import historyModeCourses from '../../icons/historyModeCourses.svg';
 import grammarModeCourses from '../../icons/grammarModeCourses.svg';
+import AboutEGEFormEducation from '../../images/AboutEGEFormEducation.png';
 
 function AboutEGE() {
   return (
@@ -31,203 +32,62 @@ function AboutEGE() {
           </div>
         </div>
       </div>
-      <div className="EGEFormEducation">
-        <div className="EGEFormEducationContainer">
+      <div className="EGEFormEducation" style={{ height: '1200px' }}>
+        <img
+          alt=""
+          src={AboutEGEFormEducation}
+          style={{ width: '100%', height: '1200px', position: 'absolute', zIndex: -1 }}></img>
+        <div className="EGEFormEducationContainerText">
           <h1>Формы обучения</h1>
-          <div className="EGEFormEducationPreTextDivFirst">
-            <div>
-              <p className="EGEFormEducationPreText">8 класс – </p>
-              <p className="EGEFormEducationPreTextBold">«К ОГЭ за два года»</p>
-            </div>
-          </div>
-          <p className="EGEFormEducationText">
-            Подготовка к ОГЭ с 8-го класса включает в себя поэтапную подготовку к ОГЭ с углубленным
-            изучением предметов для формирования фундаментальной базы знаний.
-          </p>
-          <p className="EGEFormEducationText">Курсы «К ОГЭ за два года» с 8-го класса – это:</p>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              начальное тестирование для определения уровня подготовки учащегося и «проблемных зон»;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              специально подобранные материалы для обучения;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              персональные консультации для каждого слушателя с разработкой необходимых
-              рекомендаций;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              промежуточные и итоговые тестирования;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              повышение успеваемости по предметам;- постепенная подготовка к ОГЭ;
-            </p1>
-          </div>
-          <div className="EGEFormEducationPreTextDiv">
-            <div>
-              <p className="EGEFormEducationPreText">10 класс – </p>
-              <p className="EGEFormEducationPreTextBold">«К ЕГЭ за два года»</p>
-            </div>
-          </div>
-          <p className="EGEFormEducationText">
-            Подготовка к ЕГЭ с 10-го класса позволяет не просто поэтапно и основательно
-            подготовиться к ЕГЭ, но и создать прочную базу для дальнейшего обучения.
-          </p>
-          <p className="EGEFormEducationText">
-            Основные цели подготовительных курсов для 10-го класса:
-          </p>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              приведение школьных знаний в единую систему для актуализации и устранения имеющихся
-              трудностей по предмету;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">
-              повышение успеваемости и подготовка к итоговым контрольным работам за 10 класс;
-            </p1>
-          </div>
-          <div className="EGEFormEducationTextContainerEllipse">
-            <div className="EGEFormEducationEllipse"></div>
-            <p1 className="egeformeducationtextcontainerellipseP1">поэтапная подготовка к ЕГЭ</p1>
-          </div>
-          <div className="EGEFormEducationPreTextDivFirst">
-            <div>
-              <p className="EGEFormEducationPreText">9 класс – </p>
-              <p className="EGEFormEducationPreTextBold">«ОГЭ классический»</p>
-            </div>
-          </div>
-          <p className="EGEFormEducationText">
-            Для перехода в 10 класс или поступления в учреждение среднего профессионального
-            образования необходимы положительные отметки по ОГЭ. Наш центр предлагает своим ученикам
-            курсы подготовки к ОГЭ в 9 классе по всем предметам, что открывает возможности для
-            дальнейшего продолжения образования.
-          </p>
-          <div className="EGEFormEducationPreTextDivFirst">
-            <div>
-              <p className="EGEFormEducationPreText">11 класс – </p>
-              <p className="EGEFormEducationPreTextBold">«ЕГЭ классический»</p>
-            </div>
-          </div>
-          <p className="EGEFormEducationText">
-            Очень важно не просто получить положительную отметку для получения аттестата о среднем
-            образовании, а набрать максимально возможный балл для поступления в выбранное учебное
-            заведение.
-          </p>
-          <p className="EGEFormEducationText">
-            В рамках подготовки ЕГЭ мы работаем на максимально положительный результат. Каждый
-            слушатель тестируется для определения уровня знаний и для него составляются персональные
-            рекомендации.
-          </p>
-          <p className="EGEFormEducationText">
-            Курсы подготовки к ЕГЭ в 11 классе – это залог успешной сдачи ЕГЭ и поступления на
-            бюджет в ВУЗ Вашей мечты!
-          </p>
         </div>
-      </div>
-      <div className="EGEDurationCourses">
-        <div className="EGEDurationCoursesContainer">
-          <h1>Продолжительность курсов</h1>
-          <div className="EGEDurationCoursesTimeContainer">
+        <div className="EGEFormEducationContainerGrid">
+          <div className="EGEFormEducationContainerCard">
+            <h1>11 класс – «ЕГЭ классический»</h1>
+            <div className="EGEFormEducationLine"></div>
             <p>
-              <b>«К ОГЭ за два года»</b> - для 8 классов
+              Наш центр предлагает своим ученикам курсы подготовки к ЕГЭ в 11 классе по всем
+              предметам, что открывает возможности для дальнейшего продолжения образования.
             </p>
-            <p>
-              <b>«К ЕГЭ за два года»</b> - для 10 классов
-            </p>
+            <p>Программа рассчитана на 1 учебный год - 7 месяцев</p>
+            <a href="/SchoolEducation/Class11#TNextPage">
+              <p className="EGEFormEducationContainerCardP1">Узнать больше</p>
+            </a>
           </div>
-          <div className="EGEDurationCoursesUnderTimeContainerText">
+          <div className="EGEFormEducationContainerCardLeft EGEFormEducationContainerCard ">
+            <h1>9 класс – «ОГЭ классический»</h1>
+            <div className="EGEFormEducationLine"></div>
             <p>
-              Программа рассчитана на<b> 2 учебных года по 7 месяцев</b>
+              Наш центр предлагает своим ученикам курсы подготовки к ОГЭ в 9 классе по всем
+              предметам, что открывает возможности для дальнейшего продолжения образования.
             </p>
-            <p>(каждый год 48 ак.часов по каждой дисциплине)</p>
+            <p>Программа рассчитана на 1 учебный год - 7 месяцев</p>
+            <a href="/SchoolEducation/Class9#TNextPage">
+              <p className="EGEFormEducationContainerCardP1">Узнать больше</p>
+            </a>
           </div>
-          <div className="EGEDurationCoursesDattaOfClasses">
-            <p>2019-2020 г.г. – с 1 октября 2019 по 30 апреля 2020</p>
-            <p>2020-2021 г.г. – с 1 октября 2020 по 30 апреля 2021</p>
+          <div className="EGEFormEducationContainerCard">
+            <h1>10 класс – «К ЕГЭ за два года»</h1>
+            <div className="EGEFormEducationLine"></div>
+            <p>
+              Подготовка к ЕГЭ с 10-го класса позволяет не просто поэтапно и основательно
+              подготовиться к ЕГЭ, но и создать прочную базу для дальнейшего обучения.
+            </p>
+            <p>Программа рассчитана на 2 учебных года по 7 месяцев</p>
+            <a href="/SchoolEducation/Class10#TNextPage">
+              <p className="EGEFormEducationContainerCardP1">Узнать больше</p>
+            </a>
           </div>
-          <div className="EGEDurationCoursesTimeContainer">
+          <div className="EGEFormEducationContainerCardLeft EGEFormEducationContainerCard">
+            <h1>5-8 класс – «ХОРОШИСТ»</h1>
+            <div className="EGEFormEducationLine"></div>
             <p>
-              <b>«ОГЭ классический»</b> - для 9 классов
+              Подготовка к ОГЭ с 8-го класса включает в себя поэтапную подготовку к ОГЭ с
+              углубленным изучением предметов для формирования фундаментальной базы знаний.
             </p>
-            <p>
-              <b>«ЕГЭ классический»</b> - для 11 классов
-            </p>
-          </div>
-          <div className="EGEDurationCoursesUnderTimeContainerText">
-            <p>
-              Программа рассчитана на <b>1 учебный год – 7 месяцев </b>
-            </p>
-            <p>(48 ак.часов по каждой дисциплине)</p>
-          </div>
-          <div className="EGEDurationCoursesDattaOfClasses">
-            <p>2019-2020 г.г. – с 1 октября 2019 по 30 апреля 2020</p>
-          </div>
-        </div>
-      </div>
-      <div className="EGEPriceCourses">
-        <div className="EGEPriceCoursesContainer">
-          <h1>Стоимость курсов подготовки к ОГЭ и ЕГЭ на 2019-2020 год:</h1>
-          <div className="EGEPriceCoursesUnderPrice">
-            <p>Размер оплаты зависит от количества предметов, посещаемых учащимися.</p>
-          </div>
-          <div className="EGEPriceCoursesPrice">
-            <p>Один предмет:</p>
-            <p>
-              <b>2 300 руб. в месяц.</b>
-            </p>
-          </div>
-          <div className="EGEPriceCoursesPrice">
-            <p>Два предмета:</p>
-            <p>
-              <b>3000 руб. в месяц.</b>
-            </p>
-          </div>
-          <div className="EGEPriceCoursesPrice">
-            <p>Три предмета:</p>
-            <p>
-              <b>3 500 руб. в месяц.</b>
-            </p>
-          </div>
-          <div className="EGEPriceCoursesPrice">
-            <p>Четыре предмета:</p>
-            <p>
-              <b>4 000 руб. в месяц.</b>
-            </p>
-          </div>
-          <div className="EGEPriceCoursesTextContainer">
-            <p>
-              Перед началом учебного года все обучающиеся проходят
-              <b> обязательное вводное тестирование </b>
-              на проверку качества знаний.
-            </p>
-            <p>
-              По результатам тестирования учащимся и их родителям будут даны рекомендации в выборе
-              предметов.
-            </p>
-            <p>
-              <b>Цель тестирования</b> – определение уровня знаний и способностей для дальнейшего
-              распределения в группу соответствующего уровня.
-            </p>
-            <p>
-              Для каждой группы преподаватели нашего центра разрабатывают
-              <b> индивидуальную программу обучения.</b>
-            </p>
+            <p>Программа рассчитана на 2 учебных года по 7 месяцев</p>
+            <a href="/SchoolEducation/Class5to8#TNextPage">
+              <p className="EGEFormEducationContainerCardP1">Узнать больше</p>
+            </a>
           </div>
         </div>
       </div>
@@ -239,43 +99,43 @@ function AboutEGE() {
           </div>
           <div className="EGEModeCoursesIcons">
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={calculatorModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={calculatorModeCourses}></img>
               <p>Математика</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={grammarModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={grammarModeCourses}></img>
               <p>Русский язык</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={bookModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={bookModeCourses}></img>
               <p>Литература</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={atomModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={atomModeCourses}></img>
               <p>Физика</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={chemistryModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={chemistryModeCourses}></img>
               <p>Химия</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={studentModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={studentModeCourses}></img>
               <p>Обществознание</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={researchModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={researchModeCourses}></img>
               <p>Биология</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={englandModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={englandModeCourses}></img>
               <p>Английский язык</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={monitorModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={monitorModeCourses}></img>
               <p>Информатика</p>
             </div>
             <div className="EGEModeCoursesIconsCard">
-              <img style={{ height: '80px' }} src={historyModeCourses}></img>
+              <img alt="" style={{ height: '80px' }} src={historyModeCourses}></img>
               <p>История</p>
             </div>
           </div>

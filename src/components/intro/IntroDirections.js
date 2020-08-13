@@ -20,14 +20,14 @@ function IntroDirection() {
           <div className="AboutCenterP">
             <div></div>
             <div className="AboutCenterDirections">
-              <img src={homeworkIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a href="/AboutEGE">
+              <img src={homeworkIntro} style={{ height: 80, marginTop: '20px' }} />
+              <a href="/AboutEGE#TNextPage" style={{ cursor: 'auto' }}>
+                <div className="AboutCenterDirectionsButtonDiv">
+                  <button className="AboutCenterDirectionsButton">
                     <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
+                  </button>
+                </div>
+              </a>
               <div className="AboutCenterDirectionsThing">
                 <p>Подготовка к ОГЭ/ЕГЭ</p>
                 <p2>
@@ -38,14 +38,14 @@ function IntroDirection() {
             </div>
             <div></div>
             <div className="AboutCenterDirections">
-              <img src={TrainingIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a href="/AboutAdditionalProffessionalEducation">
+              <img src={TrainingIntro} style={{ height: 80, marginTop: '20px' }} />
+              <a href="/AboutAdditionalProffessionalEducation#TNextPage" style={{ cursor: 'auto' }}>
+                <div className="AboutCenterDirectionsButtonDiv">
+                  <button className="AboutCenterDirectionsButton">
                     <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
+                  </button>
+                </div>
+              </a>
               <div className="AboutCenterDirectionsThing">
                 <p>Дополнительное Профессиональное Образование</p>
                 <p2>Дополнительное Профессиональное Образование</p2>
@@ -53,14 +53,14 @@ function IntroDirection() {
             </div>
             <div></div>
             <div className="AboutCenterDirections">
-              <img src={beautyIntro} style={{ height: 100, marginTop: '20px' }} />
-              <div className="AboutCenterDirectionsButtonDiv">
-                <button className="AboutCenterDirectionsButton">
-                  <a>
+              <img src={beautyIntro} style={{ height: 80, marginTop: '20px' }} />
+              <a href="/CourseOfBeauty#TNextPage" style={{ cursor: 'auto' }}>
+                <div className="AboutCenterDirectionsButtonDiv">
+                  <button className="AboutCenterDirectionsButton">
                     <p>Подробнее</p>
-                  </a>
-                </button>
-              </div>
+                  </button>
+                </div>
+              </a>
               <div className="AboutCenterDirectionsThing">
                 <p>Курсы красоты</p>
                 <p2>Курсы красоты</p2>

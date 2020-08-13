@@ -28,10 +28,6 @@ function scrollFunction() {
   }
 }
 
-function Alert() {
-  return '';
-}
-
 function Header() {
   const [open, setOpen] = React.useState(true);
   return (
@@ -80,7 +76,9 @@ function Header() {
           <nav class="main-nav float-right d-none d-lg-block">
             <ul class="ul-nav">
               <li class="active">
-                <a href="/">Главная</a>
+                <a className="HeaderNavigationMenuText" href="/">
+                  Главная
+                </a>
               </li>
               <li>
                 <a href="/#tAboutCourses">Курсы</a>

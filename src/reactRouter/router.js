@@ -9,12 +9,13 @@ import HRInspector from '../pages/ProfessionalEducation/HRInspector';
 import ManagerOfAccountant from '../pages/ProfessionalEducation/ManagerOfAccountant';
 import SchoolEducationClass11 from '../pages/SchoolEducation/Class11';
 import SchoolEducationClass9 from '../pages/SchoolEducation/Class9';
-import SchoolEducationClass10 from '../pages/SchoolEducation/Class11';
-import SchoolEducationClass5to8 from '../pages/SchoolEducation/Class11';
+import SchoolEducationClass10 from '../pages/SchoolEducation/Class10';
+import SchoolEducationClass5to8 from '../pages/SchoolEducation/Class5_8';
 import CourseOfBeauty from '../pages/CourseOfBeauty';
 import BeautyBrowists from '../pages/Beauty/Browists';
 import BeautyHairdresser from '../pages/Beauty/Hairdresser';
 import BeautyManicure from '../pages/Beauty/Manicure';
+import HairdresserWagon from '../pages/Beauty/Hairdresser/HairdresserWagon';
 
 function ReactRouter() {
   return (
@@ -50,6 +51,11 @@ function ReactRouter() {
       <Route exact path="/CourseOfBeauty/Browists" component={BeautyBrowists} />
       <Route exact path="/CourseOfBeauty/Hairdresser" component={BeautyHairdresser} />
       <Route exact path="/CourseOfBeauty/Manicure" component={BeautyManicure} />
+      <Route
+        exact
+        path="/CourseOfBeauty/Hairdresser/HairdresserWagon"
+        component={HairdresserWagon}
+      />
 
       <Redirect from="*" to="/"></Redirect>
     </Switch>

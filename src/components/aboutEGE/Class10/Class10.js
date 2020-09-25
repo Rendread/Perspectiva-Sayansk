@@ -10,10 +10,10 @@ function Class10() {
         <div className="AboutEGEPagesContentContainerInImage">
           <h1>10 класс – «К ЕГЭ за два года»</h1>
           <p className="AboutEGEPagesContentContainerInImageTextUnderHead">
-            Подготовка к ОГЭ с 8-го класса включает в себя поэтапную подготовку к ОГЭ с углубленным
+            Подготовка к ЕГЭ с 10-го класса включает в себя поэтапную подготовку к ОГЭ с углубленным
             изучением предметов для формирования фундаментальной базы знаний.
           </p>
-          <p style={{ marginTop: '30px' }}>Курсы «К ОГЭ за два года» с 8-го класса – это:</p>
+          <p style={{ marginTop: '30px' }}>Курсы «К ЕГЭ за два года» с 10-го класса – это:</p>
           <div
             style={{ marginTop: '28px', marginRight: '40%', marginLeft: '1%' }}
             className="AboutEGEPagesContentContainerEllipse">

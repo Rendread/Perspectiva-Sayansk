@@ -12,7 +12,7 @@ function Hairdresser() {
         <h1>Курсы парикмахерского искусства</h1>
         <div className="HairdresserContainerNavigation">
           <div className="HairdresserContainerNavigationFirstRow">
-            <a href="/">
+            <a href="/CourseOfBeauty/Hairdresser/hairdresserwagon#TNextPage">
               <div className="HairdresserContainerNavigationCards">
                 <div className="HairdresserContainerCircle">
                   <img

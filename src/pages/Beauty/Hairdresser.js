@@ -9,7 +9,7 @@ function Hairdresser() {
   return (
     <React.Fragment>
       <Header />
-      <Slider />
+
       <HairdresserPage />
       <IntroContacts />
       <Footer />
